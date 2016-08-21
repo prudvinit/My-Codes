@@ -3,7 +3,6 @@
   Idea given by sumeet varma
 */
 
-
 package persistentbookcase;
 
 import java.io.IOException;
