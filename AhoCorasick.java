@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 
 /**
- *
  * @author prudvi.maddala@oracle.com
  */
 public class AhoCorasickAlgorithm {
