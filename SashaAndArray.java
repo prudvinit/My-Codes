@@ -14,7 +14,11 @@ public class SashaAndArray {
     static int n, m;
     static final int mod = 1000000007;
 
-    static long F(int x){
+    static HashMap<Long,Long> hm = new HashMap();
+    static long F(long x){
+        if(hm.containsKey(x)){
+            return hm.get(x);
+        }
         if(x==0){
             return 0;
         }
@@ -22,14 +26,15 @@ public class SashaAndArray {
             return 1;
         }
         long f = F(x/2);
-        long fp1 = F(x/2 + 1);
+        long fm1 = F(x/2 + 1);
         long ans;
         if(x%2==0){
-            ans = (f*(2*fp1 - f))%mod;
+            ans = (f*(2*fm1 - f))%mod;
         }
         else{
-            ans = ((f*f)%mod + (fp1*fp1)%mod)%mod;
+            ans = ((f*f)%mod + (fm1*fm1)%mod)%mod;
         }
+        hm.put(x, ans);
         return ans;
     }
     static long tree[], treeM1[], treeP1[];
