@@ -7,9 +7,17 @@ static final long mod = 1000000007;
         if(n==0){
             return 0;
         }
-        if(n==1||n==2){
+        if(n==1||n==2||n==-1){
             return 1;
         }
+        if(n==-2){
+            return -1;
+        }
+        boolean negative = false;
+        if(n<0){
+            negative = true;
+        }
+        n = -n;
         long k = n;
         if(n%2==0){
             k = n/2;
@@ -25,6 +33,9 @@ static final long mod = 1000000007;
         }
         else{
             ans = ((f*f)%mod + (fM1*fM1)%mod)%mod;
+        }
+        if(n%2==0&&negative){
+            ans = -ans;
         }
         fib.put(n, ans);
         return ans;
