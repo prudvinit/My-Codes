@@ -1,42 +1,43 @@
 static final long mod = 1000000007;
-    static HashMap<Long,Long> fib = new HashMap();
+    
+    //2  methods copied from http://codereview.stackexchange.com/questions/51864/calculate-fibonacci-in-olog-n
+    public static long fib(long n) {
+        if (n <= 1) return n;
+
+        long[][] result = {{1, 0}, {0, 1}}; // identity matrix.
+        long[][] fiboM = {{1, 1}, {1, 0}};
+
+        while (n > 0) {
+            if (n%2 == 1) {
+                multMatrix(result, fiboM);
+            }
+            n = n / 2;
+            multMatrix(fiboM, fiboM);
+        }
+
+        return result[1][0];
+    }
+
+    private static void multMatrix(long[][] m, long [][] n) {
+        long a = ((m[0][0] * n[0][0])%mod +  (m[0][1] * n[1][0])%mod)%mod;
+        long b = ((m[0][0] * n[0][1])%mod +  (m[0][1] * n[1][1])%mod)%mod;
+        long c = ((m[1][0] * n[0][0])%mod +  (m[1][1] * n[0][1])%mod)%mod;
+        long d = ((m[1][0] * n[0][1])%mod +  (m[1][1] * n[1][1])%mod)%mod;
+
+        m[0][0] = a;
+        m[0][1] = b;
+        m[1][0] = c;
+        m[1][1] = d;
+    }
+        
     static long fastFib(long n){
-        if(fib.containsKey(n)){
-            return fib.get(n);
-        }
-        if(n==0){
-            return 0;
-        }
-        if(n==1||n==2||n==-1){
-            return 1;
-        }
-        if(n==-2){
-            return -1;
-        }
-        boolean negative = false;
-        if(n<0){
-            negative = true;
+        if(n>=0){
+            return fib(n);
         }
         n = -n;
-        long k = n;
+        long ans = fib(n);
         if(n%2==0){
-            k = n/2;
-        }
-        else{
-            k = (n+1)/2;
-        }
-        long f = fastFib(k);
-        long fM1 = fastFib(k-1);
-        long ans = 0;
-        if(n%2==0){
-            ans = ((((2*fM1)%mod+f)%mod)*f)%mod;
-        }
-        else{
-            ans = ((f*f)%mod + (fM1*fM1)%mod)%mod;
-        }
-        if(n%2==0&&negative){
             ans = -ans;
         }
-        fib.put(n, ans);
         return ans;
     }
