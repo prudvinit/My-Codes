@@ -1,0 +1,31 @@
+static final long mod = 1000000007;
+    static HashMap<Long,Long> fib = new HashMap();
+    static long fastFib(long n){
+        if(fib.containsKey(n)){
+            return fib.get(n);
+        }
+        if(n==0){
+            return 0;
+        }
+        if(n==1||n==2){
+            return 1;
+        }
+        long k = n;
+        if(n%2==0){
+            k = n/2;
+        }
+        else{
+            k = (n+1)/2;
+        }
+        long f = fastFib(k);
+        long fM1 = fastFib(k-1);
+        long ans = 0;
+        if(n%2==0){
+            ans = ((((2*fM1)%mod+f)%mod)*f)%mod;
+        }
+        else{
+            ans = ((f*f)%mod + (fM1*fM1)%mod)%mod;
+        }
+        fib.put(n, ans);
+        return ans;
+    }
