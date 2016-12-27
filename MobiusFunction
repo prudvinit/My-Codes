@@ -1,0 +1,28 @@
+static final int MAX = 30;
+    static int mob[];    
+    static void calculateMobiusFunction(){
+        mob = new int[MAX+1];
+        int pfs[] = new int[MAX+1];
+        for(int i=2;i<=MAX;i++){
+            if(pfs[i]==0){
+                for(int j=1;j*i<=MAX;j++){
+                    int t = i*j;
+                    int c = 0;
+                    while(t%i==0){
+                        c++;
+                        t/=i;
+                    }
+                    pfs[i*j] += c;
+                }
+            }
+        }
+        mob[1] = 1;
+        for(int i=2;i<=MAX;i++){
+            mob[i] = pfs[i]%2==0?1:-1;
+        }
+        for(int i=2;i<=MAX;i++){
+            for(int j=1;j*i*i<=MAX;j++){
+                mob[i*i*j] = 0;
+            }
+        }
+    }
