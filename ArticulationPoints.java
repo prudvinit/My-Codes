@@ -12,11 +12,18 @@ class ArticulationPoints{
                 visited[child] = true;
                 disc[child] = low[child] = time++;
                 dfs(graph,child,node,visited,disc,low,children,articulation);
+                //Once the child is traversed, we can check if the node is an articulation point for the child
                 if( disc[node]<=low[child]){
                     articulation[node] = true;
                 }
+                //We can see if there is a bridge between node and child
+                if( disc[node]<low[child]){
+                    System.out.println("Bridge "+node+" -> "+child+"");
+                }
             }
-            low[node] = Math.min(low[node],disc[child]);
+            if(child!=parent) {
+                low[node] = Math.min(low[node], low[child]);
+            }
         }
     }
     public static void main(String[] args) {
@@ -40,7 +47,7 @@ class ArticulationPoints{
         Arrays.fill(disc,Integer.MAX_VALUE);
         Arrays.fill(low,Integer.MAX_VALUE);
 
-        int root = 1;
+        int root = 4;
         visited[root] = true;
         disc[root] = time;
         low[root] = time;
