@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/TarzansBridgeFindingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/TarzansArticulationPointFindingAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +43,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TarzansBridgeFindingAlgorithm">
+  <component name="RunManager" selected="Application.TarzansArticulationPointFindingAlgorithm">
+    <configuration name="TarzansArticulationPointFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.TarzansArticulationPointFindingAlgorithm" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TarzansBridgeFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.TarzansBridgeFindingAlgorithm" />
       <module name="My-Codes" />
@@ -79,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TarzansArticulationPointFindingAlgorithm" />
         <item itemvalue="Application.TarzansBridgeFindingAlgorithm" />
-        <item itemvalue="Application.TarzansStronglyConnectedComponents (1)" />
         <item itemvalue="Application.TarzansStronglyConnectedComponents" />
       </list>
     </recent_temporary>
@@ -103,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629862143292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added tarzans Bridges finding algorithm">
+      <created>1629867205893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629867205893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored the code" />
+    <MESSAGE value="Added tarzans Bridges finding algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tarzans Bridges finding algorithm" />
   </component>
 </project>
