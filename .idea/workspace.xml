@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/TarzansStronglyConnectedComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My-Codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractSegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AbstractSegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AhoCorasick.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AhoCorasick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AkashAndGcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AkashAndGcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlyonaAndTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/AlyonaAndTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticulationPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ArticulationPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSTUsingSegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BSTUsingSegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BalancedSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BalancedSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/BigQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CentroidDecompositionOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CentroidDecompositionOfTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChefAndEasyXORQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ChefAndEasyXORQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChefAndSubarrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ChefAndSubarrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoPrimeConundrum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CoPrimeConundrum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Complex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConnectionQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/ConnectionQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoprimeTriples.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CoprimeTriples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastFibonacci" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FastFibonacci" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FastFoodCombos.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FastFoodCombos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FenwickTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FenwickTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FenwickTreeRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FenwickTreeRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GCDProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/GCDProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GravityTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/GravityTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingFibonacciSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/InterestingFibonacciSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KosarajusStronglyConnectedComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KosarajusStronglyConnectedComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobiusFunction" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MobiusFunction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneWayReform.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/OneWayReform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersistentBookcase.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/PersistentBookcase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreOrderInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/PreOrderInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimeXOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/PrimeXOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QTree2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QTree2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RMQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/RMQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealEstateBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/RealEstateBroker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SashaAndArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SashaAndArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SebiAndTheCorruptGovernment.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SebiAndTheCorruptGovernment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimplePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SimplePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SuperStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/SuperStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TreeAndQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/TreeAndQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDevelopment.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/UrbanDevelopment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VasilysMultiset.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/VasilysMultiset.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +63,17 @@
   </component>
   <component name="ProjectId" id="1xBP4f1Pj9JNJ5QyaqQOv24VUAx" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\My-Codes\java\src" />
+      <recent name="D:\Coding\My-Codes\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -26,6 +86,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.TarzansStronglyConnectedComponents (1)">
+    <configuration name="TarzansStronglyConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TarzansStronglyConnectedComponents" />
+      <module name="My-Codes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarzansStronglyConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.TarzansStronglyConnectedComponents" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TarzansStronglyConnectedComponents (1)" />
+        <item itemvalue="Application.TarzansStronglyConnectedComponents" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -45,7 +133,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
