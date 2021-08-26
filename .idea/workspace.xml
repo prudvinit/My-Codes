@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/TarzansArticulationPointFindingAlgorithm.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Added tarzans Articulation Points finding algorithm">
+      <change afterPath="$PROJECT_DIR$/java/src/AVLTrees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +50,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TarzansArticulationPointFindingAlgorithm">
+  <component name="RunManager" selected="Application.AVLTester">
+    <configuration name="AVLTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.AVLTester" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TarzansArticulationPointFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.TarzansArticulationPointFindingAlgorithm" />
       <module name="My-Codes" />
@@ -92,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTester" />
         <item itemvalue="Application.TarzansArticulationPointFindingAlgorithm" />
         <item itemvalue="Application.TarzansBridgeFindingAlgorithm" />
         <item itemvalue="Application.TarzansStronglyConnectedComponents" />
@@ -123,8 +144,25 @@
       <option name="project" value="LOCAL" />
       <updated>1629867205893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added tarzans Articulation Points finding algorithm">
+      <created>1629882210027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629882210027</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -142,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored the code" />
     <MESSAGE value="Added tarzans Bridges finding algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tarzans Bridges finding algorithm" />
+    <MESSAGE value="Added tarzans Articulation Points finding algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tarzans Articulation Points finding algorithm" />
   </component>
 </project>
