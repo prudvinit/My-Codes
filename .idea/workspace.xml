@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Added OptimalBinarySearchTree">
-      <change afterPath="$PROJECT_DIR$/java/src/BipartiteCheck.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/MinimumNumberOfWorkSessionsToFinishTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630042420028</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Bipartite graph check">
+      <created>1630211225724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630211225724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -220,6 +227,7 @@
     <MESSAGE value="LCA of two nodes in a tree" />
     <MESSAGE value="Grahams Convex Hull Algorithm" />
     <MESSAGE value="Added OptimalBinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added OptimalBinarySearchTree" />
+    <MESSAGE value="Added Bipartite graph check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bipartite graph check" />
   </component>
 </project>
