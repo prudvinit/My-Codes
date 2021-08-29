@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/MinimumNumberOfWorkSessionsToFinishTask.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Bitmask DP Leetcode problem">
+      <change afterPath="$PROJECT_DIR$/java/src/MColoringProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OptimalBinarySearchTree">
+  <component name="RunManager" selected="Application.MColoringProblemTester">
     <configuration name="AVLTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AVLTester" />
       <module name="My-Codes" />
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimalBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.OptimalBinarySearchTree" />
+    <configuration name="MColoringProblemTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.MColoringProblemTester" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarzansArticulationPointFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TarzansArticulationPointFindingAlgorithm" />
+    <configuration name="OptimalBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.OptimalBinarySearchTree" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MColoringProblemTester" />
         <item itemvalue="Application.OptimalBinarySearchTree" />
         <item itemvalue="Application.GrahamsScanConvexHull" />
         <item itemvalue="Application.TreeLCA" />
         <item itemvalue="Application.AVLTester" />
-        <item itemvalue="Application.TarzansArticulationPointFindingAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630211225724</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Bitmask DP Leetcode problem">
+      <created>1630214400446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630214400446</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -228,6 +235,7 @@
     <MESSAGE value="Grahams Convex Hull Algorithm" />
     <MESSAGE value="Added OptimalBinarySearchTree" />
     <MESSAGE value="Added Bipartite graph check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bipartite graph check" />
+    <MESSAGE value="Bitmask DP Leetcode problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bitmask DP Leetcode problem" />
   </component>
 </project>
