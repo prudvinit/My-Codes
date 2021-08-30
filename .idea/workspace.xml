@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Bitmask DP Leetcode problem">
-      <change afterPath="$PROJECT_DIR$/java/src/MColoringProblem.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Kruskals MST implementation">
+      <change afterPath="$PROJECT_DIR$/java/src/KruskalsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,9 +50,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MColoringProblemTester">
-    <configuration name="AVLTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.AVLTester" />
+  <component name="RunManager" selected="Application.KruskalsMST">
+    <configuration name="GrahamsScanConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.GrahamsScanConvexHull" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrahamsScanConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.GrahamsScanConvexHull" />
+    <configuration name="KruskalsMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.KruskalsMST" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KruskalsMST" />
         <item itemvalue="Application.MColoringProblemTester" />
         <item itemvalue="Application.OptimalBinarySearchTree" />
         <item itemvalue="Application.GrahamsScanConvexHull" />
         <item itemvalue="Application.TreeLCA" />
-        <item itemvalue="Application.AVLTester" />
       </list>
     </recent_temporary>
   </component>
