@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Kruskals MST implementation">
-      <change afterPath="$PROJECT_DIR$/java/src/KruskalsMST.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Kruskal's MST implementation">
+      <change afterPath="$PROJECT_DIR$/java/src/EggDroppingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/KruskalsMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KruskalsMST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KruskalsMST">
+  <component name="RunManager" selected="Application.GfG">
+    <configuration name="GfG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.GfG" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GrahamsScanConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.GrahamsScanConvexHull" />
       <module name="My-Codes" />
@@ -103,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeLCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TreeLCA" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GfG" />
         <item itemvalue="Application.KruskalsMST" />
         <item itemvalue="Application.MColoringProblemTester" />
         <item itemvalue="Application.OptimalBinarySearchTree" />
         <item itemvalue="Application.GrahamsScanConvexHull" />
-        <item itemvalue="Application.TreeLCA" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630214400446</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Kruskal's MST implementation">
+      <created>1630291703801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1630291703801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -236,6 +245,7 @@
     <MESSAGE value="Added OptimalBinarySearchTree" />
     <MESSAGE value="Added Bipartite graph check" />
     <MESSAGE value="Bitmask DP Leetcode problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bitmask DP Leetcode problem" />
+    <MESSAGE value="Kruskal's MST implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kruskal's MST implementation" />
   </component>
 </project>

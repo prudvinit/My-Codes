@@ -2,10 +2,7 @@
 //https://www.youtube.com/watch?v=fAuF0EuZVCk&t=461s
 package src;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class KruskalsMST {
     public int find(int[] set, int v){
@@ -40,6 +37,8 @@ public class KruskalsMST {
                 mst.add(edge);
             }
         }
+        //Sort the edges, used for testing purposes 
+        Collections.sort(mst,Comparator.comparingInt(x->x[2]));
         return mst;
     }
 
