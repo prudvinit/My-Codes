@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
-      <change afterPath="$PROJECT_DIR$/java/src/LongestPalindromicSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/CuttingRod.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/MinimumNumberOfWorkSessionsToFinishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MinimumNumberOfWorkSessionsToFinishTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindromicSubsequence">
+  <component name="RunManager" selected="Application.CuttingRod">
+    <configuration name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.CuttingRod" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GfG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.GfG" />
       <module name="My-Codes" />
@@ -104,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimalBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.OptimalBinarySearchTree" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CuttingRod" />
         <item itemvalue="Application.LongestPalindromicSubsequence" />
         <item itemvalue="Application.GfG" />
         <item itemvalue="Application.KruskalsMST" />
         <item itemvalue="Application.MColoringProblemTester" />
-        <item itemvalue="Application.OptimalBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630380288700</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Longest Palindromic Subsequence">
+      <created>1630381598644</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1630381598644</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -253,6 +261,7 @@
     <MESSAGE value="Bitmask DP Leetcode problem" />
     <MESSAGE value="Kruskal's MST implementation" />
     <MESSAGE value="Egg Dropping DP Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Egg Dropping DP Problem" />
+    <MESSAGE value="Longest Palindromic Subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Longest Palindromic Subsequence" />
   </component>
 </project>
