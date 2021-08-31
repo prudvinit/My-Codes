@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Kruskal's MST implementation">
-      <change afterPath="$PROJECT_DIR$/java/src/EggDroppingProblem.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
+      <change afterPath="$PROJECT_DIR$/java/src/LongestPalindromicSubsequence.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/KruskalsMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KruskalsMST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GfG">
+  <component name="RunManager" selected="Application.LongestPalindromicSubsequence">
     <configuration name="GfG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.GfG" />
       <module name="My-Codes" />
@@ -66,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrahamsScanConvexHull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.GrahamsScanConvexHull" />
+    <configuration name="KruskalsMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.KruskalsMST" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalsMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.KruskalsMST" />
+    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LongestPalindromicSubsequence" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestPalindromicSubsequence" />
         <item itemvalue="Application.GfG" />
         <item itemvalue="Application.KruskalsMST" />
         <item itemvalue="Application.MColoringProblemTester" />
         <item itemvalue="Application.OptimalBinarySearchTree" />
-        <item itemvalue="Application.GrahamsScanConvexHull" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630291703801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Egg Dropping DP Problem">
+      <created>1630380288700</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630380288700</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -246,6 +252,7 @@
     <MESSAGE value="Added Bipartite graph check" />
     <MESSAGE value="Bitmask DP Leetcode problem" />
     <MESSAGE value="Kruskal's MST implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kruskal's MST implementation" />
+    <MESSAGE value="Egg Dropping DP Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Egg Dropping DP Problem" />
   </component>
 </project>
