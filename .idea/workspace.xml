@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
+      <change afterPath="$PROJECT_DIR$/java/src/Knapsack01.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/TextJustificationDP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CuttingRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/CuttingRod.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextJustificationDP">
+  <component name="RunManager" selected="Application.Knapsack01">
     <configuration name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.CuttingRod" />
       <module name="My-Codes" />
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalsMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.KruskalsMST" />
+    <configuration name="Knapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Knapsack01" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack01" />
         <item itemvalue="Application.TextJustificationDP" />
         <item itemvalue="Application.CuttingRod" />
         <item itemvalue="Application.LongestPalindromicSubsequence" />
         <item itemvalue="Application.GfG" />
-        <item itemvalue="Application.KruskalsMST" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630427091142</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Text Justification DP Problem">
+      <created>1630472450092</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1630472450093</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -270,6 +276,7 @@
     <MESSAGE value="Egg Dropping DP Problem" />
     <MESSAGE value="Longest Palindromic Subsequence" />
     <MESSAGE value="Rod Cutting DP Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rod Cutting DP Problem" />
+    <MESSAGE value="Text Justification DP Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text Justification DP Problem" />
   </component>
 </project>
