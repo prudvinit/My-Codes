@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
-      <change afterPath="$PROJECT_DIR$/java/src/Knapsack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/Knapsack01Unbounded.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Knapsack01">
+  <component name="RunManager" selected="Application.Knapsack01Unbounded">
     <configuration name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.CuttingRod" />
       <module name="My-Codes" />
@@ -65,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GfG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.GfG" />
+    <configuration name="Knapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Knapsack01" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Knapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Knapsack01" />
+    <configuration name="Knapsack01Unbounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Knapsack01Unbounded" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack01Unbounded" />
         <item itemvalue="Application.Knapsack01" />
         <item itemvalue="Application.TextJustificationDP" />
         <item itemvalue="Application.CuttingRod" />
         <item itemvalue="Application.LongestPalindromicSubsequence" />
-        <item itemvalue="Application.GfG" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630472450093</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added knapsack problem with both optimized and unoptimized space complexities">
+      <created>1630476988701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630476988701</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -277,6 +284,7 @@
     <MESSAGE value="Longest Palindromic Subsequence" />
     <MESSAGE value="Rod Cutting DP Problem" />
     <MESSAGE value="Text Justification DP Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text Justification DP Problem" />
+    <MESSAGE value="Added knapsack problem with both optimized and unoptimized space complexities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added knapsack problem with both optimized and unoptimized space complexities" />
   </component>
 </project>
