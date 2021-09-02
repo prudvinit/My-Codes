@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
-      <change afterPath="$PROJECT_DIR$/java/src/Knapsack01Unbounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Knapsack01Unbounded">
+  <component name="RunManager" selected="Application.MaximumRectangleAreaInHistogram">
     <configuration name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.CuttingRod" />
       <module name="My-Codes" />
@@ -91,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LongestPalindromicSubsequence" />
+    <configuration name="MaximumRectangleAreaInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.MaximumRectangleAreaInHistogram" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumRectangleAreaInHistogram" />
         <item itemvalue="Application.Knapsack01Unbounded" />
         <item itemvalue="Application.Knapsack01" />
         <item itemvalue="Application.TextJustificationDP" />
         <item itemvalue="Application.CuttingRod" />
-        <item itemvalue="Application.LongestPalindromicSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630476988701</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="unbounded knapsack problem">
+      <created>1630478147852</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1630478147852</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -285,6 +292,7 @@
     <MESSAGE value="Rod Cutting DP Problem" />
     <MESSAGE value="Text Justification DP Problem" />
     <MESSAGE value="Added knapsack problem with both optimized and unoptimized space complexities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added knapsack problem with both optimized and unoptimized space complexities" />
+    <MESSAGE value="unbounded knapsack problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="unbounded knapsack problem" />
   </component>
 </project>
