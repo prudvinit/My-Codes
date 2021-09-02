@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/google/InterleavingIterators.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Google Practice questions">
+      <change afterPath="$PROJECT_DIR$/java/src/google/WordSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/CompressionAndDecompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google/CompressionAndDecompression.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InterleavingIterators">
+  <component name="RunManager" selected="Application.WordSquares">
     <configuration name="CompressionAndDecompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.google.CompressionAndDecompression" />
       <module name="My-Codes" />
@@ -67,19 +66,6 @@
     </configuration>
     <configuration name="InterleavingIterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.google.InterleavingIterators" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Knapsack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Knapsack01" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.google.WordSquares" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSquares" />
         <item itemvalue="Application.InterleavingIterators" />
         <item itemvalue="Application.CompressionAndDecompression" />
         <item itemvalue="Application.MaximumRectangleAreaInHistogram" />
         <item itemvalue="Application.Knapsack01Unbounded" />
-        <item itemvalue="Application.Knapsack01" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630552045570</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Google Practice questions">
+      <created>1630554730594</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630554730594</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -309,6 +315,7 @@
     <MESSAGE value="unbounded knapsack problem" />
     <MESSAGE value="Maximum Rectangle Area in Histogram" />
     <MESSAGE value="Compression and Decompression #Google" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compression and Decompression #Google" />
+    <MESSAGE value="Google Practice questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google Practice questions" />
   </component>
 </project>
