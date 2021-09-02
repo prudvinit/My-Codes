@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/CompressionAndDecompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google/InterleavingIterators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/CompressionAndDecompression.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google/CompressionAndDecompression.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompressionAndDecompression">
+  <component name="RunManager" selected="Application.InterleavingIterators">
     <configuration name="CompressionAndDecompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.CompressionAndDecompression" />
+      <option name="MAIN_CLASS_NAME" value="src.google.CompressionAndDecompression" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterleavingIterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.google.InterleavingIterators" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +83,7 @@
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +96,7 @@
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,20 +109,7 @@
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextJustificationDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TextJustificationDP" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterleavingIterators" />
         <item itemvalue="Application.CompressionAndDecompression" />
         <item itemvalue="Application.MaximumRectangleAreaInHistogram" />
         <item itemvalue="Application.Knapsack01Unbounded" />
         <item itemvalue="Application.Knapsack01" />
-        <item itemvalue="Application.TextJustificationDP" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630550370586</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Compression and Decompression #Google">
+      <created>1630552045570</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1630552045570</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -301,6 +308,7 @@
     <MESSAGE value="Added knapsack problem with both optimized and unoptimized space complexities" />
     <MESSAGE value="unbounded knapsack problem" />
     <MESSAGE value="Maximum Rectangle Area in Histogram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maximum Rectangle Area in Histogram" />
+    <MESSAGE value="Compression and Decompression #Google" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compression and Decompression #Google" />
   </component>
 </project>

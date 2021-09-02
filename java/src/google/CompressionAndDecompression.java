@@ -1,5 +1,5 @@
 //https://techdevguide.withgoogle.com/resources/former-interview-question-compression-and-decompression/#!
-package src;
+package src.google;
 
 public class CompressionAndDecompression {
     static String compress(String s){
