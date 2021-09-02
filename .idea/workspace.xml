@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="Egg Dropping DP Problem">
-      <change afterPath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/PrimsMST.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/CompressionAndDecompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MaximumRectangleAreaInHistogram.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumRectangleAreaInHistogram">
-    <configuration name="CuttingRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.CuttingRod" />
+  <component name="RunManager" selected="Application.CompressionAndDecompression">
+    <configuration name="CompressionAndDecompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.CompressionAndDecompression" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompressionAndDecompression" />
         <item itemvalue="Application.MaximumRectangleAreaInHistogram" />
         <item itemvalue="Application.Knapsack01Unbounded" />
         <item itemvalue="Application.Knapsack01" />
         <item itemvalue="Application.TextJustificationDP" />
-        <item itemvalue="Application.CuttingRod" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630478147852</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Maximum Rectangle Area in Histogram">
+      <created>1630550370586</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1630550370586</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -293,6 +300,7 @@
     <MESSAGE value="Text Justification DP Problem" />
     <MESSAGE value="Added knapsack problem with both optimized and unoptimized space complexities" />
     <MESSAGE value="unbounded knapsack problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="unbounded knapsack problem" />
+    <MESSAGE value="Maximum Rectangle Area in Histogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maximum Rectangle Area in Histogram" />
   </component>
 </project>
