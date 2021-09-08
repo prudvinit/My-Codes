@@ -5,29 +5,17 @@ import java.util.*;
 
 public class MColoringBacktracking {
 
-    //Methd to check if the current color configuration is valid or not
-    public static boolean isValid(List<Integer>[] G, int[] color){
-        for(int i=0;i<G.length;i++){
-            for(int j : G[i]){
-                if(color[i]==color[j]){
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
-
     public static boolean graphColoring(List<Integer>[] G, int[] color, int i, int C)
     {
-        //If all vertices are reached, check for validity
+        //If all vertices are reached, this means the configuration is valid
         if(i==G.length){
-            return isValid(G,color);
+            return true;
         }
-        //Recursively assign each color from 0 to C
+        //Assign each color from 0 to C
         for(int d=0;d<C;d++){
             color[i] = d;
             boolean valid = true;
-            //Check if d is a valid color for this child
+            //Check if color d is a valid by comparing colors for this child
             for(int child : G[i]){
                 if(color[child]==d){
                     valid = false;
@@ -35,10 +23,8 @@ public class MColoringBacktracking {
                 }
             }
             //If valid, recurse with the next node
-            if(valid) {
-                if (graphColoring(G, color, i + 1, C)) {
-                    return true;
-                }
+            if(valid && graphColoring(G, color, i + 1, C)) {
+                return true;
             }
             //Once complete if the config not valid, revert the color
             color[i] = -1;
