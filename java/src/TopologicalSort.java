@@ -59,17 +59,18 @@ public class TopologicalSort {
 
 class Solution
 {
-    static void dfs(int v, ArrayList<ArrayList<Integer>> adj,Set<Integer> visited, Stack<Integer> stack){
+    static void dfs(int v, ArrayList<ArrayList<Integer>> adj,Set<Integer> visited, Stack<Integer> explored){
         if(v>=adj.size()){
             return;
         }
         visited.add(v);
         for(int child : adj.get(v)){
             if(!visited.contains(child)){
-                dfs(child,adj,visited,stack);
+                dfs(child,adj,visited,explored);
             }
         }
-        stack.add(v);
+        //Add the vertex to stack , if all the children of the nodes are explored
+        explored.add(v);
     }
 
     //Function to return list containing vertices in Topological order.
@@ -77,15 +78,16 @@ class Solution
     {
         System.out.println(adj);
         // add your code here
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> explored = new Stack<Integer>();
         Set<Integer> visited = new HashSet<Integer>();
         for(int i=0;i<adj.size();i++){
             if(!visited.contains(i))
-                dfs(V,adj,visited,stack);
+                dfs(V,adj,visited,explored);
         }
-        int ans[] = new int[stack.size()];
+        //Once the DFS is complete, convert the 'explored' stack to array
+        int ans[] = new int[explored.size()];
         int ind = 0;
-        for(int x : stack){
+        for(int x : explored){
             ans[ind++] = x;
         }
         return ans;
