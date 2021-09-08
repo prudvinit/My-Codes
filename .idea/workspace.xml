@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/MColoringBacktracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MColoringBacktracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/KosarajusStronglyConnectedComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KosarajusStronglyConnectedComponents.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -278,7 +276,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630556403454</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Refactored the code">
+      <created>1631072507673</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1631072507674</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Refactored the code">
+      <created>1631072653397</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1631072653397</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -305,7 +317,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactored the code" />
     <MESSAGE value="Added tarzans Bridges finding algorithm" />
     <MESSAGE value="Added tarzans Articulation Points finding algorithm" />
     <MESSAGE value="Added AVL Tree code" />
@@ -325,6 +336,7 @@
     <MESSAGE value="Compression and Decompression #Google" />
     <MESSAGE value="Google Practice questions" />
     <MESSAGE value="Word Squares Google Practice question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Word Squares Google Practice question" />
+    <MESSAGE value="Refactored the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored the code" />
   </component>
 </project>

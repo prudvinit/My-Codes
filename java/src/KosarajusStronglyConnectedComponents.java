@@ -44,6 +44,7 @@ public class KosarajusStronglyConnectedComponents
 class Solutions
 {
 
+    //Method to perform the DFS on adjacency list graph.
     void dfs(int v, ArrayList<ArrayList<Integer>> adj, Set<Integer> visited, Stack<Integer> finishTimes){
         visited.add(v);
         for(int child : adj.get(v)){
@@ -76,7 +77,8 @@ class Solutions
                 rev.get(v).add(u);
             }
         }
-        visited = new HashSet();
+        //Reset the visited set
+        visited.clear();
         int ans = 0;
         //Perform dfs in the reverse order of finish times, i.e from the stack
         while(!finishTimes.isEmpty()){
