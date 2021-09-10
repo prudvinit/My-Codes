@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/KthLargestElementInTheArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/MergeIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthLargestElementInTheArray">
+  <component name="RunManager" selected="Application.MergeIntervals">
     <configuration name="KthLargestElementInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.KthLargestElementInTheArray" />
       <module name="My-Codes" />
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LongestCommonSubstring" />
+    <configuration name="LongestIncreasingPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.LongestIncreasingPathInMatrix" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.LongestIncreasingPathInMatrix" />
+    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.MergeIntervals" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeIntervals" />
         <item itemvalue="Application.KthLargestElementInTheArray" />
         <item itemvalue="Application.WordLadder" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LongestIncreasingPathInMatrix" />
-        <item itemvalue="Application.LongestCommonSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631272634884</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Kth largest element in the array. Solved using heaps">
+      <created>1631293844580</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1631293844580</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -369,6 +376,7 @@
     <MESSAGE value="Added Longest Common Substring, Topologica sort + cycle detection" />
     <MESSAGE value="Included Topological sort using Kahn's algo" />
     <MESSAGE value="Added Word Ladder BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Word Ladder BFS" />
+    <MESSAGE value="Kth largest element in the array. Solved using heaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kth largest element in the array. Solved using heaps" />
   </component>
 </project>
