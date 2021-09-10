@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/LongestIncreasingPathInMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/WordLadder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/TopologicalSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="CoinChangeDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.CoinChangeDP" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordLadder">
     <configuration name="CouplesHoldingHands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.CouplesHoldingHands" />
       <module name="My-Codes" />
@@ -117,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.WordLadder" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordLadder" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LongestIncreasingPathInMatrix" />
         <item itemvalue="Application.LongestCommonSubstring" />
         <item itemvalue="Application.CouplesHoldingHands" />
-        <item itemvalue="Application.CoinChangeDP" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631258355353</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Included Topological sort using Kahn's algo">
+      <created>1631270722762</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1631270722762</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -354,6 +360,7 @@
     <MESSAGE value="Word Squares Google Practice question" />
     <MESSAGE value="Refactored the code" />
     <MESSAGE value="Added Longest Common Substring, Topologica sort + cycle detection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Longest Common Substring, Topologica sort + cycle detection" />
+    <MESSAGE value="Included Topological sort using Kahn's algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included Topological sort using Kahn's algo" />
   </component>
 </project>
