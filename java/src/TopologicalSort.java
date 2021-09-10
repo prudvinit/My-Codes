@@ -74,7 +74,7 @@ class Solution
     }
 
     //Function to return list containing vertices in Topological order.
-    static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj)
+    static int[] topoSortDFS(int V, ArrayList<ArrayList<Integer>> adj)
     {
         System.out.println(adj);
         // add your code here
@@ -91,5 +91,71 @@ class Solution
             ans[ind++] = x;
         }
         return ans;
+    }
+
+    //Function to return list containing vertices in Topological order.
+    static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj)
+    {
+        int indegree[] = new int[V];
+        for(ArrayList<Integer> v : adj){
+            for(Integer c : v){
+                indegree[c]++;
+            }
+        }
+        Queue<Integer> q = new LinkedList();
+        for(int i=0;i<V;i++){
+            if(indegree[i]==0){
+                q.add(i);
+            }
+        }
+        List<Integer> top = new ArrayList();
+        int c = 0;
+        while (!q.isEmpty()){
+            Integer node = q.poll();
+            top.add(node);
+            c++;
+            for(int child : adj.get(node)){
+                indegree[child]--;
+                if(indegree[child]==0){
+                    q.add(child);
+                }
+            }
+        }
+        if(c==V){
+            int ans[] = new int[top.size()];
+            for(int i=0;i<top.size();i++){
+                ans[i] = top.get(i);
+            }
+            return ans;
+        }
+//        System.out.println("Cycle exists");
+        return null;
+    }
+
+    static ArrayList<ArrayList<Integer>> graph(int edges[][], int v){
+        ArrayList<ArrayList<Integer>> graph = new ArrayList();
+        for(int i=0;i<v;i++){
+            graph.add(new ArrayList<Integer>());
+        }
+        for(int e[] : edges){
+            graph.get(e[0]).add(e[1]);
+        }
+        return graph;
+    }
+    static void test1(){
+        int edges[][] = {{3,0},{1,0},{2,0}};
+        int V = 4;
+        System.out.println(Arrays.toString(topoSort(V,graph(edges,V))));
+    }
+
+    static void test2(){
+        int edges[][] = {{5,2},{5,0},{4,0},{4,1},{2,3},{3,1}};
+        int V = 6;
+        System.out.println(Arrays.toString(topoSort(V,graph(edges,V))));
+    }
+
+    public static void main(String[] args) {
+//        test1();
+        test2();
     }
 }
