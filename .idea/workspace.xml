@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/src/KosarajusStronglyConnectedComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KosarajusStronglyConnectedComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/LongestCommonSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/CouplesHoldingHands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/CourseSchedule2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/MinimumNumberOfWorkSessionsToFinishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/leetcode/MinimumNumberOfWorkSessionsToFinishTask.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CoinChangeDP">
+  <component name="RunManager" selected="Application.LongestCommonSubstring">
     <configuration name="CoinChangeDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.CoinChangeDP" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompressionAndDecompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.google.CompressionAndDecompression" />
+    <configuration name="CouplesHoldingHands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.CouplesHoldingHands" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.google.*" />
+          <option name="PATTERN" value="src.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumRectangleAreaInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.MaximumRectangleAreaInHistogram" />
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LongestCommonSubstring" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.google.*" />
+          <option name="PATTERN" value="src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubstring" />
+        <item itemvalue="Application.CouplesHoldingHands" />
         <item itemvalue="Application.CoinChangeDP" />
         <item itemvalue="Application.WordSquares" />
         <item itemvalue="Application.InterleavingIterators" />
-        <item itemvalue="Application.CompressionAndDecompression" />
-        <item itemvalue="Application.MaximumRectangleAreaInHistogram" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631072653397</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactored the code">
+      <created>1631072910335</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1631072910335</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

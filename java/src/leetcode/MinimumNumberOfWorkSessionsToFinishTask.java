@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/submissions/
 
-package src;
+package src.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
