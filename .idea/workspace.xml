@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/RemoveInvalidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/SmallestMissingGeneticValueInEachSubtree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,20 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
-    <configuration name="KthLargestElementInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.KthLargestElementInTheArray" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveInvalidParenthesis">
     <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.LongestIncreasingSubsequence" />
       <module name="My-Codes" />
@@ -90,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveInvalidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.RemoveInvalidParenthesis" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SkylineProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.SkylineProblem" />
       <module name="My-Codes" />
@@ -103,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.WordLadder" />
+    <configuration name="SmallestMissingGeneticValueInEachSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.SmallestMissingGeneticValueInEachSubtree" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveInvalidParenthesis" />
+        <item itemvalue="Application.SmallestMissingGeneticValueInEachSubtree" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
         <item itemvalue="Application.SkylineProblem" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.KthLargestElementInTheArray" />
-        <item itemvalue="Application.WordLadder" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631368010268</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="BST Using Stack">
+      <created>1631413782942</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1631413782942</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -367,7 +375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tarzans Bridges finding algorithm" />
     <MESSAGE value="Added tarzans Articulation Points finding algorithm" />
     <MESSAGE value="Added AVL Tree code" />
     <MESSAGE value="LCA of two nodes in a tree" />
@@ -392,6 +399,7 @@
     <MESSAGE value="Added Word Ladder BFS" />
     <MESSAGE value="Kth largest element in the array. Solved using heaps" />
     <MESSAGE value="Skyline problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Skyline problem" />
+    <MESSAGE value="BST Using Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST Using Stack" />
   </component>
 </project>
