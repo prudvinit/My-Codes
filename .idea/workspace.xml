@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FruitsIntoBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfWaysToPaintAGrid.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/leetcode/OddEvenJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/SingleThreadedCPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/PaintingAGridWithMDifferentColors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleThreadedCPU">
+  <component name="RunManager" selected="Application.PaintingAGridWithMDifferentColors">
     <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.FruitsIntoBasket" />
       <module name="My-Codes" />
@@ -79,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleThreadedCPU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.SingleThreadedCPU" />
+    <configuration name="PaintingAGridWithMDifferentColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.PaintingAGridWithMDifferentColors" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnapshotArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.SnapshotArray" />
+    <configuration name="SingleThreadedCPU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.SingleThreadedCPU" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PaintingAGridWithMDifferentColors" />
         <item itemvalue="Application.SingleThreadedCPU" />
         <item itemvalue="Application.Solution22" />
         <item itemvalue="Application.OddEvenJump" />
         <item itemvalue="Application.FruitsIntoBasket" />
-        <item itemvalue="Application.SnapshotArray" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631678883016</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="SingleThreadedCPU leetcode">
+      <created>1631870551518</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1631870551518</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -404,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Grahams Convex Hull Algorithm" />
     <MESSAGE value="Added OptimalBinarySearchTree" />
     <MESSAGE value="Added Bipartite graph check" />
     <MESSAGE value="Bitmask DP Leetcode problem" />
@@ -429,6 +435,7 @@
     <MESSAGE value="Remove invalid parenthesis" />
     <MESSAGE value="Game24 leetcode Backtracking problem" />
     <MESSAGE value="Snapshot array leetcode problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Snapshot array leetcode problem" />
+    <MESSAGE value="SingleThreadedCPU leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="SingleThreadedCPU leetcode" />
   </component>
 </project>
