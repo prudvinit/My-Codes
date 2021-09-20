@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfWaysToPaintAGrid.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="SingleThreadedCPU leetcode">
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java/src/leetcode/OddEvenJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/PaintingAGridWithMDifferentColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/VideoStitching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,22 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PaintingAGridWithMDifferentColors">
-    <configuration name="FruitsIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.FruitsIntoBasket" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OddEvenJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.OddEvenJump" />
+  <component name="RunManager" selected="Application.NumberOfWaysToArriveAtDestination">
+    <configuration name="NumberOfWaysToArriveAtDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.NumberOfWaysToArriveAtDestination" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoStitching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.VideoStitching" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
+        <item itemvalue="Application.VideoStitching" />
         <item itemvalue="Application.PaintingAGridWithMDifferentColors" />
         <item itemvalue="Application.SingleThreadedCPU" />
         <item itemvalue="Application.Solution22" />
-        <item itemvalue="Application.OddEvenJump" />
-        <item itemvalue="Application.FruitsIntoBasket" />
       </list>
     </recent_temporary>
   </component>
