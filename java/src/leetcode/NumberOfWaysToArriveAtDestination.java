@@ -24,20 +24,17 @@ public class NumberOfWaysToArriveAtDestination {
         ways[0] = 1;
         while (true){
             int mn = -1;
-            boolean found = false;
             for(int i=0;i<n;i++){
                 if(mn==-1){
                     if(!visited[i]){
-                        found = true;
                         mn =i;
                     }
                 }
                 else if(dist[i]<dist[mn]&&!visited[i]){
                     mn = i;
-                    found = true;
                 }
             }
-            if(!found){
+            if(mn==-1){
                 break;
             }
             int top = mn;
