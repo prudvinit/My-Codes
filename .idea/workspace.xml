@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="SingleThreadedCPU leetcode">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfWaysToArriveAtDestination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/OddEvenJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/VideoStitching.java" afterDir="false" />
+    <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java/src/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/PriorityQueuePlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/MinimumHeightTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfRestrictedPathsFromFirstNodeToLastNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ParallelCourses2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +28,7 @@
   <component name="ProjectId" id="1xBP4f1Pj9JNJ5QyaqQOv24VUAx" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,7 +54,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfWaysToArriveAtDestination">
+  <component name="RunManager" selected="Application.NumberOfRestrictedPathsFromFirstNodeToLastNode">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.MainTest" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumHeightTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.MinimumHeightTrees" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfRestrictedPathsFromFirstNodeToLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.NumberOfRestrictedPathsFromFirstNodeToLastNode" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumberOfWaysToArriveAtDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.NumberOfWaysToArriveAtDestination" />
       <module name="My-Codes" />
@@ -66,47 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaintingAGridWithMDifferentColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.PaintingAGridWithMDifferentColors" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleThreadedCPU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.SingleThreadedCPU" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.Solution22" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VideoStitching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.VideoStitching" />
+    <configuration name="ParallelCourses2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.ParallelCourses2" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfRestrictedPathsFromFirstNodeToLastNode" />
+        <item itemvalue="Application.MinimumHeightTrees" />
+        <item itemvalue="Application.ParallelCourses2" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
-        <item itemvalue="Application.VideoStitching" />
-        <item itemvalue="Application.PaintingAGridWithMDifferentColors" />
-        <item itemvalue="Application.SingleThreadedCPU" />
-        <item itemvalue="Application.Solution22" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631870551518</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added number of ways to arrive at destination and Video Stitching Leetcode problems">
+      <created>1632118678800</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1632118678800</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Optimized the code">
+      <created>1632118734232</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1632118734232</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -411,8 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added OptimalBinarySearchTree" />
-    <MESSAGE value="Added Bipartite graph check" />
     <MESSAGE value="Bitmask DP Leetcode problem" />
     <MESSAGE value="Kruskal's MST implementation" />
     <MESSAGE value="Egg Dropping DP Problem" />
@@ -436,6 +450,8 @@
     <MESSAGE value="Game24 leetcode Backtracking problem" />
     <MESSAGE value="Snapshot array leetcode problem" />
     <MESSAGE value="SingleThreadedCPU leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="SingleThreadedCPU leetcode" />
+    <MESSAGE value="Added number of ways to arrive at destination and Video Stitching Leetcode problems" />
+    <MESSAGE value="Optimized the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized the code" />
   </component>
 </project>
