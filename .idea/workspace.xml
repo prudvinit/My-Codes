@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FindTheCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FindEventualSafeNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +50,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SatisfiabilityOfEqualityEquations">
-    <configuration name="NumberOfRestrictedPathsFromFirstNodeToLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.NumberOfRestrictedPathsFromFirstNodeToLastNode" />
+  <component name="RunManager" selected="Application.FindEventualSafeNodes">
+    <configuration name="FindEventualSafeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.FindEventualSafeNodes" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindEventualSafeNodes" />
         <item itemvalue="Application.SatisfiabilityOfEqualityEquations" />
         <item itemvalue="Application.ValidBinaryTreeNodes" />
         <item itemvalue="Application.ShortestPathWithAlternatingColors" />
         <item itemvalue="Application.ReconstructItenerary" />
-        <item itemvalue="Application.NumberOfRestrictedPathsFromFirstNodeToLastNode" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632316098905</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Leetcode problems">
+      <created>1632318257821</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1632318257821</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
