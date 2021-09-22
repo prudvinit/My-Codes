@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/CourseScheduleIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FloweringPlantWithNoAdjacent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NetworkDelayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/SatisfiabilityOfEqualityEquations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FindTheCity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -406,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632302291951</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Leetcode problems">
+      <created>1632316098905</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1632316098905</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
