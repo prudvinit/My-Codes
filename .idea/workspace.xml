@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/java/src/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/PriorityQueuePlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/MinimumHeightTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfRestrictedPathsFromFirstNodeToLastNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ParallelCourses2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/CheapestFlightWithinKStops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/PossibleBipartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ReconstructItenerary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ShortestPathWithAlternatingColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ValidBinaryTreeNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,20 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfRestrictedPathsFromFirstNodeToLastNode">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.MainTest" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidBinaryTreeNodes">
     <configuration name="MinimumHeightTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.MinimumHeightTrees" />
       <module name="My-Codes" />
@@ -94,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfWaysToArriveAtDestination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.NumberOfWaysToArriveAtDestination" />
+    <configuration name="ReconstructItenerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.ReconstructItenerary" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelCourses2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.ParallelCourses2" />
+    <configuration name="ShortestPathWithAlternatingColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.ShortestPathWithAlternatingColors" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidBinaryTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.ValidBinaryTreeNodes" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidBinaryTreeNodes" />
+        <item itemvalue="Application.ShortestPathWithAlternatingColors" />
+        <item itemvalue="Application.ReconstructItenerary" />
         <item itemvalue="Application.NumberOfRestrictedPathsFromFirstNodeToLastNode" />
         <item itemvalue="Application.MinimumHeightTrees" />
-        <item itemvalue="Application.ParallelCourses2" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.NumberOfWaysToArriveAtDestination" />
       </list>
     </recent_temporary>
   </component>
