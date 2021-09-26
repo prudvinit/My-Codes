@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FindEventualSafeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/CatAndMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/FindTheShortestSuperstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/MinimumCostToReachDestinationInTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/ReachableNodesInSubgraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/MainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +54,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindEventualSafeNodes">
+  <component name="RunManager" selected="Application.FindTheShortestSuperstring">
+    <configuration name="CatAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.CatAndMouse" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindEventualSafeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.leetcode.FindEventualSafeNodes" />
       <module name="My-Codes" />
@@ -64,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructItenerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.ReconstructItenerary" />
+    <configuration name="FindTheShortestSuperstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.FindTheShortestSuperstring" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReachableNodesInSubgraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.leetcode.ReachableNodesInSubgraph" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
@@ -90,39 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathWithAlternatingColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.ShortestPathWithAlternatingColors" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidBinaryTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.ValidBinaryTreeNodes" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTheShortestSuperstring" />
+        <item itemvalue="Application.CatAndMouse" />
+        <item itemvalue="Application.ReachableNodesInSubgraph" />
         <item itemvalue="Application.FindEventualSafeNodes" />
         <item itemvalue="Application.SatisfiabilityOfEqualityEquations" />
-        <item itemvalue="Application.ValidBinaryTreeNodes" />
-        <item itemvalue="Application.ShortestPathWithAlternatingColors" />
-        <item itemvalue="Application.ReconstructItenerary" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632318257821</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Leetcode problems">
+      <created>1632324067207</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1632324067207</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
