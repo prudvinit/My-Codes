@@ -75,7 +75,7 @@ class Solution22 {
             Task t = new Task(i,tasks[i][0],tasks[i][1]);
             input[i]=t;
         }
-        Comparator<Task> myComp1 = new Comparator<>(){
+        Comparator<Task> myComp1 = new Comparator<Task>(){
             public int compare(Task a, Task b)
             {
                 if(a.startTime<b.startTime)return -1;
@@ -84,7 +84,7 @@ class Solution22 {
             }
         };
         Arrays.sort(input,myComp1);
-        Comparator<Task> myComp2 = new Comparator<>(){
+        Comparator<Task> myComp2 = new Comparator<Task>(){
             public int compare(Task a, Task b)
             {
                 if(a.duration==b.duration)

@@ -1,7 +1,5 @@
 package src;
 
-import java.util.Scanner;
-
 class FenwickTree{
     //Most important thing to remember is, all the indices are 1-indexed
     public static void update(int BIT[],int pos, int val){
@@ -18,6 +16,7 @@ class FenwickTree{
         }
         return ans;
     }
+
     public static void main(String[] args) {
         int arr[] = {3,1,4,5,2};
         int BIT[] = new int[arr.length+1];
@@ -25,7 +24,7 @@ class FenwickTree{
             update(BIT,i+1,arr[i]);
         }
         System.out.println("Done");
-        update(BIT,2,-1);
+        update(BIT,2,1);
         for(int i=0;i<arr.length;i++){
             System.out.println(query(BIT,i+1));
         }

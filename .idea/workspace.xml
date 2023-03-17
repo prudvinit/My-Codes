@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/src/leetcode/FindTheShortestSuperstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/leetcode/FindTheShortestSuperstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/CycleInAGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/CycleInUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/DijkstrasAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/DuplicateSubtrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/MaximalRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/NumberProvinces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/google2/TrappingRainwater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/leetcode/SearchSuggestionSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/My-Codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Codes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/FenwickTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/FenwickTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/KruskalsMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/KruskalsMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/leetcode/NumberOfRestrictedPathsFromFirstNodeToLastNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/leetcode/NumberOfRestrictedPathsFromFirstNodeToLastNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/leetcode/SingleThreadedCPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/leetcode/SingleThreadedCPU.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +40,14 @@
   <component name="ProjectId" id="1xBP4f1Pj9JNJ5QyaqQOv24VUAx" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.google2" />
       <recent name="src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -49,13 +67,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindTheShortestSuperstring">
-    <configuration name="CatAndMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.CatAndMouse" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="FenwickTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.FenwickTree" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindEventualSafeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.FindEventualSafeNodes" />
+    <configuration name="KruskalsMST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.KruskalsMST" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheShortestSuperstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.FindTheShortestSuperstring" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.google2.MergeSort" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.google2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReachableNodesInSubgraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.ReachableNodesInSubgraph" />
+    <configuration name="NumberProvinces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.google2.NumberProvinces" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.google2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SatisfiabilityOfEqualityEquations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.leetcode.SatisfiabilityOfEqualityEquations" />
+    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.google2.SegmentTree" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.leetcode.*" />
+          <option name="PATTERN" value="src.google2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindTheShortestSuperstring" />
-        <item itemvalue="Application.CatAndMouse" />
-        <item itemvalue="Application.ReachableNodesInSubgraph" />
-        <item itemvalue="Application.FindEventualSafeNodes" />
-        <item itemvalue="Application.SatisfiabilityOfEqualityEquations" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.KruskalsMST" />
+        <item itemvalue="Application.FenwickTree" />
+        <item itemvalue="Application.SegmentTree" />
+        <item itemvalue="Application.NumberProvinces" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632651557716</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Leetcode problems">
+      <created>1632651719691</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1632651719691</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

@@ -5,11 +5,11 @@ package src;
 import java.util.*;
 
 public class KruskalsMST {
+
     public int find(int[] set, int v){
-        while (set[v]!=v){
-            v = set[v];
-        }
-        return v;
+        if(set[v]==v)return v;
+        set[v] = find(set,set[v]);
+        return set[v];
     }
 
     public void union(int[] set, int u, int v){
