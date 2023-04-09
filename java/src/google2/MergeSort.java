@@ -22,7 +22,7 @@ public class MergeSort {
         return temp;
     }
     public static void main(String[] args) {
-        int arr[] = {2};
+        int arr[] = {2,5,1,4,3};
         System.out.println(Arrays.toString(mergeSort(arr)));
     }
 }

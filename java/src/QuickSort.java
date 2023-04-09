@@ -1,8 +1,6 @@
 package src;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-
 
 class QuickSort{
     static int pivot(int arr[], int left, int right){
@@ -37,7 +35,6 @@ class QuickSort{
         return end;
     }
 
-
     static void quickSort(int arr[], int left, int right){
         if(left>=right){
             return;
@@ -50,7 +47,7 @@ class QuickSort{
     }
 
     public static void main(String[] args) {
-        int arr[] = {31,26,20,17,44,54,77};
+        int arr[] = {3,1,5,2,4};
         quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }

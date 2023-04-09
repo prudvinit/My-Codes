@@ -6,11 +6,8 @@ import java.util.Set;
 public class NumberProvinces {
 
     public int find(int a, int parent[]) {
-        while (a != parent[a]) {
-            System.out.println(a + " " + parent[a]);
-            parent[a] = find(parent[a], parent);
-            a = parent[a];
-        }
+        if(parent[a]==a)return a;
+        parent[a] = find(parent[a],parent);
         return parent[a];
     }
 
