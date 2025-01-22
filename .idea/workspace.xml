@@ -2,16 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/google2/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/google2/CombinationSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/google2/EvaluateDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/google2/LongestCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/google2/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/My-Codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Codes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/CouponManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/CustomerUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/GreatIndian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/Voucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/AdapterPatternApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/SourceConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/SourceToTargetAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/TargetConcrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/DesktopComputerBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L1Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L2Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L3Support.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/CappucinoCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/CoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/IceCoffeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/EmailObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/StockPriceNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/BasketRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/HalloweenPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/IRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/CashPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/UPIPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/MotorCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/google2/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google2/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/google2/NumberProvinces.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google2/NumberProvinces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/google2/CycleInAGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google2/CycleInADirectedGraph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +74,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,6 +84,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xBP4f1Pj9JNJ5QyaqQOv24VUAx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -38,7 +95,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.lld.tictactoe" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.lld.designpatterns.chainofresponsibility" />
+      <recent name="src.lld.coupon" />
       <recent name="src.google2" />
       <recent name="src" />
     </key>
@@ -59,13 +121,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="EvaluateDivision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.google2.EvaluateDivision" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.coupon.App" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.google2.*" />
+          <option name="PATTERN" value="src.lld.coupon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.QuickSort" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.adapter.Main" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.lld.designpatterns.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.google2.QuickSort" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.decorator.Main" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.google2.*" />
+          <option name="PATTERN" value="src.lld.designpatterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarzansArticulationPointFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TarzansArticulationPointFindingAlgorithm" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.observer.Main" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.lld.designpatterns.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +174,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarzansBridgeFindingAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.TarzansBridgeFindingAlgorithm" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.chainofresponsibility.Main" />
       <module name="My-Codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.lld.designpatterns.chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.builder.Main" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.lld.designpatterns.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.lld.vendingmachine.VendingMachineApp" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.lld.vendingmachine.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.QuickSort (1)" />
-        <item itemvalue="Application.TarzansBridgeFindingAlgorithm" />
-        <item itemvalue="Application.TarzansArticulationPointFindingAlgorithm" />
-        <item itemvalue="Application.EvaluateDivision" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

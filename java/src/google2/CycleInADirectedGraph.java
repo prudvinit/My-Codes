@@ -2,7 +2,7 @@ package src.google2;
 
 import java.util.ArrayList;
 
-public class CycleInAGraph {
+public class CycleInADirectedGraph {
 
     private boolean hasCycle(int V, boolean visited[], boolean explored[], ArrayList<ArrayList<Integer>> graph){
         visited[V] = true;
