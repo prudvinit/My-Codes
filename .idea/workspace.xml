@@ -2,68 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/Coupon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/CouponManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/CustomerUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/GreatIndian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/coupon/Voucher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/AdapterPatternApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/SourceConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/SourceToTargetAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/adapter/TargetConcrete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/DesktopComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L1Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L2Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/L3Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/chainofresponsibility/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/CappucinoCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/CoffeeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/IceCoffeeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/EmailObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/StockPriceNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/BasketRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/HalloweenPromotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/IRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/rule/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/CashPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/strategy/UPIPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/MotorCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/parkinglot/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/CoinInsertedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/DefaultState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/ProductSelectedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/google2/CycleInAGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/google2/CycleInADirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,18 +43,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="src.lld.tictactoe" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\My-Codes\java\src" />
+      <recent name="D:\Coding\My-Codes\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.lld.vendingmachine" />
       <recent name="src.lld.designpatterns.chainofresponsibility" />
       <recent name="src.lld.coupon" />
       <recent name="src.google2" />
       <recent name="src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding\My-Codes\java\src" />
-      <recent name="D:\Coding\My-Codes\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.lld.tictactoe" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -121,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.VendingMachineApp">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.lld.coupon.App" />
       <module name="My-Codes" />
@@ -215,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VendingMachineApp" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679032528226</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Leetcode problems g2 prep">
+      <created>1737519459255</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1737519459255</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

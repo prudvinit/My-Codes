@@ -2,10 +2,10 @@ package src.lld.vendingmachine;
 
 public class VendingMachineApp {
     public static void main(String[] args) {
-        Item coke = new Item("Coke","Cold beverage",40);
-        VendingMachine.getInstance().load(coke,10);
-        VendingMachine.getInstance().show();
-        Customer user = new Customer("Prudvi",18,1000);
-        user.purchase(coke,45);
+
+        VendingMachine machine = VendingMachine.getInstance();
+        machine.load(new Item("Coke","Cold beverage",5),1);
+        machine.insertCash(10);
+        machine.pressButton(1);
     }
 }

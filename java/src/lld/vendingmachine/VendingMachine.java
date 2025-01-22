@@ -1,16 +1,33 @@
 package src.lld.vendingmachine;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class VendingMachine {
-    Map<Item,Integer> inventory;
+    Inventory inventory;
     private double totalCash;
     private static VendingMachine machine;
+    public State currentState,defaultState,coinInsertedState,productSelectedState;
+    private double bufferCash;
+    private int selectedAisle;
 
     private VendingMachine(){
-        inventory = new HashMap();
         totalCash = 0;
+        bufferCash = 0;
+        defaultState = new DefaultState(this);
+        coinInsertedState = new CoinInsertedState(this);
+        productSelectedState = new ProductSelectedState(this);
+        currentState = defaultState;
+        inventory = new Inventory(2);
+    }
+
+    public double getBufferCash(){
+        return bufferCash;
+    }
+
+    public void setCurrentState(State state){
+        this.currentState = state;
+    }
+
+    public void setBufferCash(double cash){
+        this.bufferCash = cash;
     }
 
     public static VendingMachine getInstance(){
@@ -20,33 +37,32 @@ public class VendingMachine {
         return machine;
     }
 
-    public void show(){
-        for(Item item : inventory.keySet()){
-            if(inventory.getOrDefault(item,0)>0) {
-                System.out.println("Item : " + item.name + ", Price : " + item.price + ", " + item.description + " ");
-            }
-        }
-    }
-
     public void load(Item item, int quantity){
-        inventory.put(item,inventory.getOrDefault(item,0)+1);
+        inventory.load(item,quantity);
     }
 
-    public boolean purchase(Item i, double cash){
-        if(inventory.getOrDefault(i,0)==0){
-            System.out.println("No item in stock!");
-            return false;
-        }
-        else if(cash<i.price){
-            System.out.println("Insufficient cash. Please insert "+i.price);
-            return false;
-        }
-        inventory.put(i,inventory.get(i)-1);
-        totalCash+=i.price;
-        System.out.println("Please collect your item "+i.name);
-        if(cash>i.price){
-            System.out.println("Please collect your change "+(cash-i.price)+"$");
-        }
-        return true;
+    public void insertCash(double cash){
+        currentState.insertCash(cash);
+    }
+
+    public void pressButton(int aisle){
+        currentState.pressButton(aisle);
+        currentState.dispense();
+    }
+
+    public int getSelectedAisle(){
+        return this.selectedAisle;
+    }
+
+    public void setSelectedAisle(int aisle){
+        this.selectedAisle = aisle;
+    }
+
+    public double getTotalCash() {
+        return totalCash;
+    }
+
+    public void setTotalCash(double totalCash) {
+        this.totalCash = totalCash;
     }
 }
