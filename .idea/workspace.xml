@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afaec813-c141-4f4e-852a-72c72876f038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/CoinInsertedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/DefaultState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/ProductSelectedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/TheGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Analytics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Cycling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Goal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/Rewards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/lld/designpatterns/fitnesstracking/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/Admin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/lld/vendingmachine/VendingMachineApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +43,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Coding\My-Codes\java\src" />
-      <recent name="D:\Coding\My-Codes\src" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.lld.designpatterns.fitnesstracking" />
+      <recent name="src.lld.tictactoe" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="src.lld.vendingmachine" />
@@ -54,8 +54,9 @@
       <recent name="src.google2" />
       <recent name="src" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="src.lld.tictactoe" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\My-Codes\java\src" />
+      <recent name="D:\Coding\My-Codes\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,20 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VendingMachineApp">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.lld.coupon.App" />
-      <module name="My-Codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.lld.coupon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TheGame">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.lld.designpatterns.adapter.Main" />
       <module name="My-Codes" />
@@ -149,6 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.TheGame" />
+      <module name="My-Codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VendingMachineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.lld.vendingmachine.VendingMachineApp" />
       <module name="My-Codes" />
@@ -164,10 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheGame" />
         <item itemvalue="Application.VendingMachineApp" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
